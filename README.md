@@ -16,8 +16,8 @@ This project is a basic token tracking application on the Solana blockchain. It 
 ### Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install)
-- [Solana CLI](https://docs.solana.com/cli/install-solana-cli)
-- [Anchor CLI](https://book.anchor-lang.com/getting_started/installation.html)
+- [Solana CLI](https://solana.com/docs/intro/installation)
+- [Anchor CLI](https://www.anchor-lang.com/docs/installation)
 
 ### Setup and Deployment
 
