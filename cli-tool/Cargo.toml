@@ -1,0 +1,23 @@
+[package]
+name = "cli-tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Required for on-chain interaction
+solana-client = "2.3.1"
+solana-sdk = "2.3.1"
+# For parsing command-line arguments
+clap = { version = "4.0", features = ["derive"] }
+# For serializing and deserializing data
+borsh = "0.9.3"
+# For error handling
+anyhow = "1.0"
+spl-associated-token-account = "7.0.0"
+spl-token = "8.0.0"
+
+# Add your program as a dependency
+# This allows the CLI to access your program's instruction data enums
+my-project = { path = "../programs/my-project", features = ["no-entrypoint"] }
+signature = "1.6.4"
+sha2 = "0.10.9"
